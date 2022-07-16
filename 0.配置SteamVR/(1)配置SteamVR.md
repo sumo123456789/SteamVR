@@ -20,8 +20,12 @@ SteamVR Plugin是Valve公司提供给Unity开发者的开发工具，以.unitypa
 在使用方面符合一般的Unity插件导入流程，开发者可使用该插件开发面向SteamVR平台的VR应用程序。
 ```
 # 配置SteamVR 
-## 设备:OculusQuest2 、 装有Oculus、unity以及SteamVR的Windows电脑
+## 设备:OculusQuest2 、装有Oculus、Unity以及SteamVR的Windows电脑
 ```
-
+在Windows电脑安装响应软件后，先在unity的Asset Store中安装SteamVR Plugin插件。
+然后打开windows->Steam Input选项，在该页面中，可以定义SteamVR中的动作集和动作。
+在点击save and generate后。先打开SteamVR，并让Oculus设备连接上电脑，并进入SteamVR应用。
+此时即可点击unity中的play按钮开始调试。
 ```
-
+## Steam Input
+![image](https://github.com/sumo123456789/SteamVR/blob/main/0.%E9%85%8D%E7%BD%AESteamVR/image/1657949248725.png)
